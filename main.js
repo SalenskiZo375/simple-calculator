@@ -4,8 +4,8 @@ console.log ('JS SImple CaAlamlater');
 
 console.log ('output:')
 
-const numb1 = (prompt("please enter your number"));
-const numb2 = (prompt("please enter your other number"));
+const numb1 = (Number (prompt("please enter your number")));
+const numb2 = (Number (prompt("please enter your other number")));
 
 const total1 = numb1 + numb2;
 const total2 = numb1 - numb2;
